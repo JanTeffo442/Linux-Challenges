@@ -1,2 +1,0 @@
-# Linux-Challenges
-Umuzi
