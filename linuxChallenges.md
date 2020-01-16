@@ -25,6 +25,14 @@ TASK 2
 ~$ touch exercise.md
 ~$ ls
 # exercise.md appears together with Desktop, Pictures, Downloads, etc.
+~$ mv exercise.md /tmp
+# moves exercise.md to tmp directory
+~$ cd /tmp
+/tmp$ ls
+# exercise.md appears in tmp directory
+/tmp$ rm exercise.md
+/tmp$ ls
+# exercise.md removed form tmp
 
 
 TASK 5
