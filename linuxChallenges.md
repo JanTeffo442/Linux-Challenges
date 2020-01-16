@@ -19,7 +19,6 @@ TASK 1
 ~/workspace$ ls
 # CHANGELOG.md and README.md appear in workspace directory
 
-
 TASK 2
 
 ~$ touch exercise.md
@@ -33,6 +32,39 @@ TASK 2
 /tmp$ rm exercise.md
 /tmp$ ls
 # exercise.md removed form tmp
+
+TASK 3
+
+~$ touch umuzi.md recruit.md cohort.md
+# Creates three files with the associated names
+~$ cat umuzi.md
+# Write the text "This is the best place to be" to umuzi.md then press Enter to save and CTRL+Z to exit
+
+~$ cat recruit.md
+# Write the text "Making Umuzi Better" to recruit.md then press Enter to save and CTRL+Z to exit
+
+~$ cat cohort.md
+# Write the text "Best cohort ever.2020" to cohort.md then press Enter to save and CTRL+Z to exit
+
+~$ cat umuzi.md recruit.md cohort.md > summary.md
+# Creates the file summamry.md and copies the content of umuzi.md, recruit.md, cohort.md respectively
+~$ cat summary.md
+# Displays 
+# This is the best place to be
+# Making Umuzi Better
+# Best cohort ever.2020
+# respectively
+
+~$ cat umuzi.md recruit.md cohort.md -> summary
+# Enter the text "The end" and press ENTER to save and CTRL+Z to exit
+
+~$ cat summary.md
+# Displays 
+# This is the best place to be
+# Making Umuzi Better
+# Best cohort ever.2020
+# Withiut overwriting the contents of summary.md
+
 
 TASK 4
 ~$ locate umuzi
