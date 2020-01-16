@@ -47,4 +47,11 @@ TASK 5
 ~/Desktop$ locate pad_copy.md
 # path of pad_copy is provided
 
+TASK 6
 
+~$ find ~/ -name *.pdf
+# Displays all pdf files on the computer
+~$ find ~/ -name *.pdf > pdfresults.md
+# writes output to output to pdfresults
+~$ find . -type f -newermt 2020-01-16
+# Populates a list of files that were modified today
