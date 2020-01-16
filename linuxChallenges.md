@@ -55,3 +55,16 @@ TASK 6
 # writes output to output to pdfresults
 ~$ find . -type f -newermt 2020-01-16
 # Populates a list of files that were modified today
+
+TASK 7
+~$ nano my_bio.md
+# opens nano editor to creates a file named my_bio.md
+# Press CTRL+O to edit the name of the file and Press # Enter to save, the Press CTRL+X to exit editor
+~$ mkdir my_files
+# Creates a directory named my_files
+~$ mv my_bio ~/my_files
+# moves my_bio.md to my_files directory
+~$ cd ~/my_files
+~/my_files$ ls
+# Displays my_bio.md
+
