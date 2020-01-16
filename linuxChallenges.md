@@ -34,6 +34,13 @@ TASK 2
 /tmp$ ls
 # exercise.md removed form tmp
 
+TASK 4
+~$ locate umuzi
+# Populates locations of all files and directories with name umuzi
+~$ locate umuzi > search_result.md
+# Copies output of locate umuzi into saerch_result.md
+~$ cat search_result.md
+# Displays locations of all files and directories with name umuzi
 
 TASK 5
 
@@ -61,7 +68,7 @@ TASK 6
 # Displays all pdf files on the computer
 ~$ find ~/ -name *.pdf > pdfresults.md
 # writes output to output to pdfresults
-~$ find . -type f -newermt 2020-01-16
+~$ find . -type f -newermt 2020-01-16 -ls
 # Populates a list of files that were modified today
 
 TASK 7
